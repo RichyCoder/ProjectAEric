@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.frogslayer.tabletophelper"
+	version = "0.0.1">
+
+	<name>Tabletop Helper</name>
+
+	<description>
+		Allows players to convieniently view their character sheets in a friendly and intuitive manner.
+	</description>
+
+	<author href="https://github.com/RichyCoder"
+	email="richard.simpson@frogslayer.com">
+		Richard Simpson
+	</author>
+
+	<icon src="icons/icon_120x120.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>
